@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name" : "api-petsbook",
+    "routes": [{ "src": "/api/(.*)",  "dest": "/api/index.js" }],
+    "env":{
+        "MONGODB_URI":"@mongopet-uri"
+    }
+  }
